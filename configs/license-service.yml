@@ -1,10 +1,13 @@
+server:
+  port: 8081
+
 example:
   property: I AM DEFAULT
 
 spring:
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: true
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
     properties:
       hibernate:
